@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b3f7bd2-52a4-48ce-8eb4-76ec7e048378" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="24kdGjMfx7xisHg7zRxRF6asbAK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="corretto-1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../estate-management" />
+    <property name="project.structure.last.edited" value="项目" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xiaoQu\estate-management\src\main\resources\static" />
+      <recent name="E:\xiaoQu\estate-management\src\main\resources\mapper" />
+      <recent name="E:\xiaoQu\estate-management\src\main\resources\static\images" />
+      <recent name="E:\xiaoQu\estate-management\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xiaoQu\estate-management\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mapper" />
+      <recent name="com.ag.common" />
+      <recent name="com.ag.domain" />
+      <recent name="com.ag.controller" />
+      <recent name="com.ag.service.impl" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="EstateManagementApplication1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="estate-management1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ag.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ag.EstateManagementApplication1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.EstateManagementApplication1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="2b3f7bd2-52a4-48ce-8eb4-76ec7e048378" name="更改" comment="" />
+      <created>1644178426677</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644178426677</updated>
+      <workItem from="1644178428063" duration="4757000" />
+      <workItem from="1644225267399" duration="24667000" />
+      <workItem from="1644307923831" duration="14600000" />
+      <workItem from="1644333427040" duration="47000" />
+      <workItem from="1644333510147" duration="58000" />
+      <workItem from="1644333656593" duration="4235000" />
+      <workItem from="1644347064373" duration="5180000" />
+      <workItem from="1644398296292" duration="13574000" />
+      <workItem from="1644421773115" duration="6766000" />
+      <workItem from="1644438754337" duration="8740000" />
+      <workItem from="1644448899351" duration="2102000" />
+      <workItem from="1644452208536" duration="1127000" />
+      <workItem from="1644453626664" duration="447000" />
+      <workItem from="1644455146737" duration="395000" />
+      <workItem from="1644455563835" duration="17000" />
+      <workItem from="1644455599917" duration="13000" />
+      <workItem from="1644455627334" duration="293000" />
+      <workItem from="1644455935848" duration="190000" />
+      <workItem from="1644456274356" duration="1000" />
+      <workItem from="1644456301605" duration="39000" />
+      <workItem from="1644456352334" duration="80000" />
+      <workItem from="1644456447208" duration="37000" />
+      <workItem from="1644456569559" duration="3000" />
+      <workItem from="1644456648830" duration="2000" />
+      <workItem from="1644493174789" duration="2742000" />
+      <workItem from="1644505535880" duration="7520000" />
+      <workItem from="1644602664169" duration="5559000" />
+      <workItem from="1644659028771" duration="12073000" />
+      <workItem from="1644671587015" duration="28000" />
+      <workItem from="1644671647491" duration="13000" />
+      <workItem from="1644788481247" duration="306000" />
+      <workItem from="1644788806710" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/resources/static/repairadd.html</url>
+          <line>73</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

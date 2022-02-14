@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>系统登录</title>
+  <link rel="stylesheet" href="css/login.css">
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script src="./lib/layui/layui.js" charset="utf-8"></script>
+</head>
+<body class="login-bg">
+
+
+<style>
+  /*  .errorMsg1{
+        color: red;
+        text-align: center;
+        font-size: 14px;
+    }*/
+  .errorMsg1 {
+      color: transparent;
+      -webkit-text-stroke: 1px red;
+      letter-spacing: 0.04em;
+   /*   text-align: center;*/
+      font-size: 14px;
+  }
+
+</style>
+    <div class="login">
+        <div class="message">系统登录</div>
+        <div id="errorMsg" class="errorMsg1" ></div>
+        <div id="darkbannerwrap" ></div>
+        <form method="post" class="layui-form" id="loginForm" >
+            <input name="username" placeholder="用户名"  type="text" lay-verify="required" class="layui-input" >
+            <hr class="hr15">
+            <input name="password" lay-verify="required" placeholder="密码"  type="password" class="layui-input">
+            <hr class="hr15">
+            <input value="登录" lay-submit lay-filter="login" style="width:100%;" type="submit" id="login_btn">
+            <hr class="hr20" >
+        </form>
+    </div>
+<script>
+    layui.use(['form'],
+        function () {
+            $ = layui.jquery;
+            let form = layui.form(),
+                layer = layui.layer;
+            //监听提交
+            form.on('submit(login)',
+                function (data) {
+                    layer.alert('点击确定进入后台', {
+                        title: '提示'
+                    }, function () {
+                        $.post("/user", $("#loginForm").serialize(), function (data) {
+                            if (data.flag) {
+                                location.href = "index.html";
+                            } else {
+                                $("#errorMsg").html(data.errorMsg);
+                            }
+                        })
+                    })
+                    return false;
+                });
+        });
+</script>
+
+    
+    <!-- 底部结束 -->
+    
+</body>
+</html>

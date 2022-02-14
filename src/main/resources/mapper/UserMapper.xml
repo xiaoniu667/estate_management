@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ag.mapper.UserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="ResultMap" type="com.ag.domain.Owner">
+        <id column="id" property="id" />
+        <result column="picture" property="picture" />
+        <result column="community_id" property="communityId" />
+        <result column="house_id" property="houseId" />
+        <result column="name" property="name" />
+        <result column="picture" property="picture" />
+        <result column="idCard" property="idCard" />
+        <result column="telephone" property="telephone" />
+        <result column="profession" property="profession" />
+        <result column="sex" property="sex" />
+        <result column="type" property="type" />
+        <result column="remark" property="remark" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="birthday" property="birthday" />
+        <result column="community_name" property="communityName" />
+        <result column="total_households" property="totalHouseholds" />
+        <result column="description" property="description" />
+        <result column="house_name" property="houseName" />
+    </resultMap>
+    <select id="selectByImg" resultType="com.ag.domain.Owner">
+        SELECT tb_owner.*  from tb_owner,tb_estate_manager WHERE tb_estate_manager.`name`=tb_owner.`name`and tb_estate_manager.name=#{name};
+    </select>
+
+    <select id="selectByCount" resultType="java.lang.Integer">
+        SELECT count(*) FROM tb_owner WHERE tb_owner.type=#{type};
+    </select>
+</mapper>

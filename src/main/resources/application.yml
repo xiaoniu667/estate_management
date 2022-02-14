@@ -1,0 +1,32 @@
+server:
+  port: 80
+spring:
+  banner:
+    location: 13.txt
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql:///xiaoniu-estate?serverTimezone=GMT%2B8
+      username: root
+      password: zyw123456
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
+  thymeleaf:
+    cache: false
+    prefix: classpath:/static/
+    suffix: .html
+servlet:
+  multipart:
+    max-file-size-size: 10MB
+    max-request-size: 50MB
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: tb_
+      id-type: auto
+    banner: off
+
+logging:
+  level:
+    root: warn
